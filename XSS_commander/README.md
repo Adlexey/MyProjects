@@ -16,7 +16,7 @@ optional arguments:
 ```
  <br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;">
     <strong>🚀 Inject XSS Payload</strong>
-    <p style="margin-top: 10px; margin-bottom: 0;">
+    <p style="margin-top: 10px; margin-bottom: 10;">
         Inject the following payload into vulnerable web applications:
     </p>
 </div>
