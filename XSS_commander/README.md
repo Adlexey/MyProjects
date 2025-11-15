@@ -13,3 +13,9 @@ function hello() {
 }
 ```
 </div>
+```javascript
+// bash код
+function hello() {
+    console.log("Hello GitHub!");
+}
+```
