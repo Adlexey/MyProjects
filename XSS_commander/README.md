@@ -6,5 +6,9 @@
 
 ## How to use
 ```bash
-npm install my-package
+python3 xss-c2.py [-h] [-h HOST] [-p PORT]
+optional arguments:
+  -h, --help            show this help message and exit
+  -h HOST, --host HOST  Server IP address (default: 0.0.0.0 - all interfaces)
+  -p PORT, --port PORT  Server port (default: 4545)
 ```
