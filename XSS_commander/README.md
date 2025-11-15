@@ -13,9 +13,9 @@ function hello() {
 }
 ```
 </div>
-````javascript
+`javascript
 // JavaScript код
 function hello() {
     console.log("Hello GitHub!");
 }
-````
+`
