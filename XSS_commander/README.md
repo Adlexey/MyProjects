@@ -8,10 +8,10 @@
 <div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 1.🔧 Start the Server</strong></div><br>
 
 ```bash
-python3 xss-commander.py [-h] [-h HOST] [-p PORT]
+python3 xss-commander.py [--help] [-h HOST] [-p PORT]
 
 optional arguments:
-  -h, --help            show this help message and exit
+  --help            show this help message and exit
   -h HOST, --host HOST  Server IP address (default: 0.0.0.0 - all interfaces)
   -p PORT, --port PORT  Server port (default: 4545)
 ```
