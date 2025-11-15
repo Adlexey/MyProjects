@@ -15,3 +15,4 @@ function hello() {
 </div>
 ```bash
 npm install my-package
+```
