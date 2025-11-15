@@ -13,9 +13,5 @@ function hello() {
 }
 ```
 </div>
-`javascript
-// JavaScript код
-function hello() {
-    console.log("Hello GitHub!");
-}
-`
+```bash
+npm install my-package
