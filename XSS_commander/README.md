@@ -4,15 +4,7 @@
 <br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong>⚠️ LEGAL NOTICE:</strong> This tool is for <strong>authorized security testing</strong> and <strong>educational purposes</strong> only. Unauthorized use is illegal. </div><br>
 <table style="width: 100%; border-collapse: collapse;"> <thead> <tr style="background: #f5f5f5;"> <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;">Feature</th> <th style="padding: 12px; text-align: left; border-bottom: 2px solid #ddd;">Description</th> </tr> </thead> <tbody> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">🎯 <strong>Real-time Control</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Execute JavaScript commands on compromised browsers</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">📊 <strong>Web Dashboard</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Beautiful admin interface with live results</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">👥 <strong>Multi-Victim</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Manage multiple browser sessions simultaneously</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">🔍 <strong>Auto Recon</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Automatic information gathering (cookies, IP, user agent)</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">⚡ <strong>Quick Commands</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">One-click common reconnaissance tasks</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">🛡️ <strong>CORS Ready</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Bypasses modern browser security policies</td> </tr> <tr> <td style="padding: 12px; border-bottom: 1px solid #ddd;">📱 <strong>Responsive</strong></td> <td style="padding: 12px; border-bottom: 1px solid #ddd;">Works on desktop and mobile</td> </tr> </tbody> </table>
 
-<div style="background: #e8f5e8; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #4caf50;"> <h4 style="margin-top: 0; color: #2e7d32;">✅ Requirements</h4> <ul style="margin-bottom: 0;"> <li><strong>Python 3.6 or higher</strong></li> <li><strong>No additional dependencies required!</strong></li> </ul> </div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;"><!-- Default Configuration --><div style="background: #fff3e0; padding: 20px; border-radius: 8px; border: 2px solid #ff9800;"> <h4 style="color: #e65100; margin-top: 0;">🛠️ Installation</h4>
-```javascript
-// bash код
-function hello() {
-    console.log("Hello GitHub!");
-}
-```
-</div>
+
 ```bash
 npm install my-package
 ```
