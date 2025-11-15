@@ -6,7 +6,7 @@
 
 <div style="background: #e8f5e8; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #4caf50;"> <h4 style="margin-top: 0; color: #2e7d32;">✅ Requirements</h4> <ul style="margin-bottom: 0;"> <li><strong>Python 3.6 or higher</strong></li> <li><strong>No additional dependencies required!</strong></li> </ul> </div>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;"><!-- Default Configuration --><div style="background: #fff3e0; padding: 20px; border-radius: 8px; border: 2px solid #ff9800;"> <h4 style="color: #e65100; margin-top: 0;">🛠️ Installation</h4>
-```bash
+```javascript
 // bash код
 function hello() {
     console.log("Hello GitHub!");
