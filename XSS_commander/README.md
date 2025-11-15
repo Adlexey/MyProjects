@@ -1,4 +1,4 @@
-<div align="left"><h1>Advanced Cross-Site Scripting Command & Control Server</h1></div>
+<div align="left"><h1>Advanced Cross-Site Scripting Command & Control Server</h1></div><br>
 📖 XSS-commander is a professional-grade Command and Control server designed for security researchers and penetration testers to demonstrate the real-world impact of XSS vulnerabilities. It provides real-time browser control through injected JavaScript payloads with an intuitive web interface.
 
 <br><div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong>⚠️ LEGAL NOTICE:</strong> This tool is for <strong>authorized security testing</strong> and <strong>educational purposes</strong> only. Unauthorized use is illegal. </div><br>
