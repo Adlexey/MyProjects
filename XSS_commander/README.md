@@ -1,6 +1,6 @@
-div align="center"><img src="https://img.shields.io/badge/Python-3.6+-blue.svg" alt="Python"> <img src="https://img.shields.io/badge/License-Educational%20Use%20Only-red.svg" alt="License"> <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg" alt="Platform"> <img src="https://img.shields.io/badge/Version-1.0.0-green.svg" alt="Version"><h1>Advanced Cross-Site Scripting Command & Control Server</h1> <h3>Take control of browsers through XSS vulnerabilities</h3><p> <a href="#features">Features</a> • <a href="#installation">Installation</a> • <a href="#usage">Usage</a> • <a href="#demo">Demo</a> • <a href="#legal">Legal</a> </p></div>
+div align="center"><h1>Advanced Cross-Site Scripting Command & Control Server</h1> <h3>Take control of browsers through XSS vulnerabilities</h3></div>
 📖 Overview
-XSS-C2 is a professional-grade Command and Control server designed for security researchers and penetration testers to demonstrate the real-world impact of XSS vulnerabilities. It provides real-time browser control through injected JavaScript payloads with an intuitive web interface.
+XSS-commander is a professional-grade Command and Control server designed for security researchers and penetration testers to demonstrate the real-world impact of XSS vulnerabilities. It provides real-time browser control through injected JavaScript payloads with an intuitive web interface.
 
 <div class="warning" style="background: #fff3e0; border-left: 4px solid #ff9800; padding: 12px; margin: 20px 0; border-radius: 4px;"> <strong>⚠️ LEGAL NOTICE:</strong> This tool is for <strong>authorized security testing</strong> and <strong>educational purposes</strong> only. Unauthorized use is illegal. </div>
 ✨ Features
